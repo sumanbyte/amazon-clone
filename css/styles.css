@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Literata:wght@200;300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --height-search: 40px
+}
+
+header{
+    font-family: 'Literata', serif;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+header .icon img{
+    margin: 0 20px;
+    width: 100px;
+    cursor: pointer;
+}
+
+
+
+.deliver-to{
+    margin-top: -10px;
+    cursor: pointer;
+    
+}
+
+.deliver-to-p{
+    font-size: 12px;
+}
+.deliver-to-p2{
+    font-size: 15px;
+    margin-top: -3px;
+}
+.location-mark{
+    color: white;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.search-box{
+    margin: 0 20px;
+    position: relative;
+}
+
+.search-box input[type='text']{
+    padding: 5px 60px;
+    height: var(--height-search);
+    font-size: large;
+    width: 710px;
+}
+
+.search-box input{
+    color: -internal-light-dark(yellow, white);
+}
+
+.search-box .box{
+    position: absolute;
+    top: 0;
+    height: var(--height-search);
+    width: 50px;
+    color: black;
+    background-color: #f2e5e4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid black;
+    
+}
+
+.search-box .box p{
+    margin-right: 6px;
+    font-size: 12px;
+}
+
+.search-box .box .all-icon{
+    font-size: small;
+}
+
+.search-box .search-icon-box{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 22px;
+    font-weight: 200;
+    height: var(--height-search);
+    width: 40px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: chocolate;
+}
+
+header .flag{
+    display: flex;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+}
+
+header .flag img{
+    margin-right: 5px;
+}
+
+
+
+header .flag .flag-angledown{
+    font-size: small;
+}
+
+header .accounts-and-list{
+    margin-left: 40px;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+header .accounts-and-list p{
+    font-size: 13px;
+}
+
+header .accounts-and-list-p{
+    margin-right: 4px;
+}
+
+header .accounts-and-list .accounts-and-list-p2{
+    margin-top: -3px;
+    font-size: 15px;
+}
+
+header .accounts-and-list .accounts-and-list-angledown{
+    font-size: small;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 3px;
+}
+
+header .returns-and-orders{
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+header .returns-and-orders-p1{
+    font-size: 13px;
+}
+
+header .returns-and-orders-p2{
+    margin-top: -3px;
+    font-size: 15px;
+}
+
+header .shopping-cart{
+    display: flex;
+    cursor: pointer;
+}
+
+header .shopping-cart-icons-all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .shopping-cart-icon{
+    font-size: 25px;
+    margin-top: -11px;
+}
+
+header .shopping-cart-icon-p1{
+    font-size: 17px; 
+    margin-top: -8px;
+}
+
+header .shopping-cart-text{
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+}
+
